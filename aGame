@@ -1,0 +1,45 @@
+package agame;
+import java.util.*;
+/**
+ *
+ * @author tug43586
+ */
+public class AGame {
+    
+    /**
+     * @param args the command line arguments
+     */
+    public static final int SHULT=1, KNUBBING=2, ANGLAND=3, HANSAKOGG=4;
+    
+    public static void main(String[] args) {
+        Random r = new Random();
+        Scanner keyboard = new Scanner(System.in);
+        int choice, computer;
+        
+        computer = r.nextInt(4)+1;
+   
+    System.out.println("The rule are: Shult beats Knubbig and Angland\n" + 
+    "Knubbig beats Angland\n" +
+    "Angland beats Hansakogg\n" +
+    "Hansakogg beats Shult and Knubbig\n" +
+    "The computer wins in the event of a tie\n");
+    
+    
+    System.out.println("The moves are: \n"
+            + "1) Shult\n"
+            + "2) Knubbing\n"
+            + "3) Angland\n"
+            + "4) Hansakogg\n");
+    
+    System.out.println("Pick a number between 1-4 to play");
+    
+     choice =
+    
+    if (choice==1) {
+        if (computer==hansakogg)
+            System.out.println("Computer wins");
+    } else if (choice==2){
+        if
+    }
+    }
+    
